@@ -1,10 +1,9 @@
-🤖 OCR Telegram Bot (Demo)
-
+# 🤖 OCR Telegram Bot (Demo)
 Proyek ini adalah prototipe Telegram Bot berbasis Python yang dapat melakukan Optical Character Recognition (OCR) dari gambar (misalnya hasil Speedtest jaringan atau G-NetTrack Pro) dan memberikan rekomendasi kualitas jaringan.
 
 Bot ini dikembangkan saat magang sebagai Radio Operation Intern di PT Telkomsel (MSIB Cycle 5).
 
-✨ Fitur Utama
+# ✨ Fitur Utama
 
 📷 Membaca teks dari gambar menggunakan EasyOCR
 
@@ -16,12 +15,12 @@ Bot ini dikembangkan saat magang sebagai Radio Operation Intern di PT Telkomsel 
 
 📡 Rekomendasi jaringan berdasarkan nilai RSRP dan Download Speed
 
-📂 Cuplikan Kode
+# 📂 Cuplikan Kode
 
 Lihat file main.py
  untuk contoh implementasi bot sederhana.
 
-📸 Demo Bot
+# 📸 Demo Bot
 
 (Tambahkan screenshot chat bot di sini, misalnya demo_bot.png)
 
