@@ -17,7 +17,7 @@ Bot ini dikembangkan saat magang sebagai Radio Operation Intern di PT Telkomsel 
 
 # 📂 Cuplikan Kode
 
-Lihat file main.py.ino
+Lihat file main.py.txt
  untuk contoh implementasi bot sederhana.
 
 # 📸 Demo Bot
