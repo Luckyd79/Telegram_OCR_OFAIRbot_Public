@@ -1,0 +1,27 @@
+import easyocr
+from telegram import Update
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
+
+BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
+reader = easyocr.Reader(['en'], gpu=False)
+
+def start(update: Update, context: CallbackContext):
+    update.message.reply_text("👋 Halo! Kirim foto untuk dibaca teksnya dengan OCR.")
+
+def handle_photo(update: Update, context: CallbackContext):
+    file = update.message.photo[-1].get_file()
+    file.download("temp.jpg")
+    results = reader.readtext("temp.jpg")
+    texts = [t for _, t, _ in results]
+    update.message.reply_text("📝 Hasil OCR:\n" + "\n".join(texts) if texts else "❌ Tidak ada teks.")
+
+def main():
+    updater = Updater(BOT_TOKEN, use_context=True)
+    dp = updater.dispatcher
+    dp.add_handler(CommandHandler("start", start))
+    dp.add_handler(MessageHandler(Filters.photo, handle_photo))
+    updater.start_polling()
+    updater.idle()
+
+if __name__ == "__main__":
+    main()
