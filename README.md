@@ -22,6 +22,8 @@ Lihat file main.py
 
 # 📸 Demo Bot
 
-(Tambahkan screenshot chat bot di sini, misalnya demo_bot.png)
+![Foto  Final](foto_alat_final.jpeg)
+![Tampilan Depan Alat Monitoring Kualitas Jaringan Internet](alat_monitoring_jaringan.jpeg)
+
 
 ⚡ Versi lengkap (kode penuh, dokumentasi, dan deployment) tersedia di repo private.
