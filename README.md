@@ -17,13 +17,13 @@ Bot ini dikembangkan saat magang sebagai Radio Operation Intern di PT Telkomsel 
 
 # 📂 Cuplikan Kode
 
-Lihat file main.py
+Lihat file main.py.ino
  untuk contoh implementasi bot sederhana.
 
 # 📸 Demo Bot
 
-![Foto  Final](foto_alat_final.jpeg)
-![Tampilan Depan Alat Monitoring Kualitas Jaringan Internet](alat_monitoring_jaringan.jpeg)
-
+![Tampilan Awal Ofairbot](TampilanAwalOfairbot.jpg)
+![Foto Pengukuran Ofairbot](FotoPengukuranOfairbot.jpg)
+![Hasil Pengukuran Ofairbot Xlsx](HasilPengukuranOfairbotXlsx.jpg)
 
 ⚡ Versi lengkap (kode penuh, dokumentasi, dan deployment) tersedia di repo private.
